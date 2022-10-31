@@ -11,4 +11,4 @@ const changeBackgroundColor = () => {
   bodyEl.style.backgroundColor = colorValueTextEl.textContent;
 }
 
-colorChangeBtnEl.addEventListener('click', changeBackgroundColor);
+colorChangeBtnEl.addEventListener('click', changeBackgroundColor); 
