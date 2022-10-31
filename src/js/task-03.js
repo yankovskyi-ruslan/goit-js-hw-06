@@ -17,11 +17,11 @@ const galleryEl = document.querySelector('.gallery');
 const imgArrEl = [];
 
 for (const { url, alt } of images) {
-  
+
   const imageEl = `<img src = ${url} alt = ${alt}/>`;
   imgArrEl.push(imageEl);
 }
 
 const markup = imgArrEl.map(img => `<li>${img}</li>`).join('');
 
-galleryEl.insertAdjacentHTML('afterbegin', markup)
+galleryEl.insertAdjacentHTML('afterbegin', markup);
