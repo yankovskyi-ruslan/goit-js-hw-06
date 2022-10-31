@@ -17,6 +17,7 @@ const galleryEl = document.querySelector('.gallery');
 const imgArrEl = [];
 
 for (const { url, alt } of images) {
+  
   const imageEl = `<img src = ${url} alt = ${alt}/>`;
   imgArrEl.push(imageEl);
 }
